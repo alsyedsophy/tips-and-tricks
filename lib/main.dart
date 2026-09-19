@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:tipsandtrics/app.dart';
 import 'package:tipsandtrics/home_Page.dart';
-import 'package:tipsandtrics/tips/tips_and_tricks/hide_appbar_while_scroll.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: const HomePage(widget: HideAppbarWhileScroll()),
+      home: const HomePage(widget: ShimmerPackage()),
     );
   }
 }
