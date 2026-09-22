@@ -55,6 +55,7 @@ class SkeletonizerPackage extends StatelessWidget {
                 ),
               ),
             ),
+
             Skeletonizer(
               child: Card(
                 child: ListTile(

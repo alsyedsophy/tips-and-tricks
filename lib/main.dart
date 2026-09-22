@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: const HomePage(widget: SkeletonizerPackage()),
+      home: const HomePage(widget: ShowMenu()),
     );
   }
 }
